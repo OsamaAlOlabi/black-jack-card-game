@@ -1,0 +1,45 @@
+Game starts by asking if you would like to play:
+
+If "Yes" then:
+    Show my current 2 cards and current score
+    show computer 1st card
+
+    if my current score = 21 then:
+        computer pulls more cards
+        if computer pulls a total of = 21:
+            It's a DRAW
+        else if computer pull a total > 21:
+            I WIN
+
+    elif my current score > 21 then:
+        I lose
+
+    elif my current score < 21 then:
+        ask me if I would like another card:
+        If I would like another card:
+            add card value to current score and repeat above if statments
+
+        else if I don't want another card:
+            computer pulls a card, and adds the value to his current score.
+            if computer current score is < 17 then:
+                computer must pull another card
+            elif my current score is > than computer current score:
+                computer pulls another card and adds the value to his current score.
+            elif computer current score is > than my current score:
+                computer wins
+
+############### Our Blackjack House Rules #####################
+
+## The deck is unlimited in size.
+## There are no jokers.
+## The Jack/Queen/King all count as 10.
+## The the Ace can count as 11 or 1.
+## Use the following list as the deck of cards:
+## cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+## The cards in the list have equal probability of being drawn.
+## Cards are not removed from the deck as they are drawn.
+## The computer is the dealer.
+
+
+
+
